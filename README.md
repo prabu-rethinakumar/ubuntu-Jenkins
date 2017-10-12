@@ -12,7 +12,7 @@ setup environment variables through export
 
 Reboot the machine and login back 
 
-Step#1: Creat Jenkins server(e.g servername.xyz.com)
+Step#1: Create Jenkins server(e.g servername.xyz.com)
 
  	 Create your own ubuntu server using any Virtualization . If you have server of your own, login as root or admin
   
@@ -35,6 +35,7 @@ Step#3: Download and install Jenkins package
 
 
 Step#4: Jenkins User
+
 Jenkins along with all its components are managed by user named 'jenkins' . You may have to grant this user access to all of the required components. For example - GIT
 
 
@@ -53,7 +54,7 @@ Step#7: Jenkins workspace
 Jenkins usually operates its workspace under var/lib/jenkins/workspace/ or installation_directory/workspace. All your projects will be managed in this folder
 
 
-Step#8: Cloud Foundry CLI for Jenkin CI to push into Cloud Foundry. This step is enable Jenkins to push your application into Cloud Foundry
+Step#8: This step is to enable Jenkins to push your application into Cloud Foundry using CF CLI
 
 		wget -O cf.deb https://s3.amazonaws.com/go-cli/releases/v6.1.2/cf-cli_amd64.deb
 		sudo dpkg -i cf.deb
@@ -70,7 +71,7 @@ Step#10 Log into Jenkins console using the jenkins server address on your browse
 
 	http://servername.xyz.com:8080
 	
-Create users and start setting up your CI/CD pipelines using jenkins
+Create Users through Console . You are all set to start building your CI/CD pipelines using jenkins
 
 
 Reference:
