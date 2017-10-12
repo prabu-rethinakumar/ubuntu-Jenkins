@@ -1,4 +1,4 @@
-# Jenkins CI-ubuntu-CLoud Foundry
+# Jenkins CI-ubuntu-Cloud Foundry
 
 ## This gist narrates installation steps for Jenkins on Ubuntu to push changes to Cloud Foundry using Jenkins CI
 
