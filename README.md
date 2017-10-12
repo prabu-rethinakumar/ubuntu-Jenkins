@@ -1,6 +1,6 @@
-##Jenkins CI-ubuntu-CLoud Foundry
+## Jenkins CI-ubuntu-CLoud Foundry
 
-#This gist narrates installation steps for Jenkins on Ubuntu to push changes to Cloud Foundry using Jenkins CI
+# This gist narrates installation steps for Jenkins on Ubuntu to push changes to Cloud Foundry using Jenkins CI
 
 Note:
 If you are behind Firewall/proxy server ensure proxy is setup before installing the components or you may not be successful in pulling objects from registry.
