@@ -1,7 +1,7 @@
-Installation steps for Jenkins on Ubuntu.
+About this: This gist narrates installation steps for Jenkins on Ubuntu to push changes to Cloud Foundry using Jenkins CI
 
 Note:
-If you are behind and Firewall/proxy server ensure proxy is setup before installing the components or you may not be successful in pulling objects from registry.
+If you are behind Firewall/proxy server ensure proxy is setup before installing the components or you may not be successful in pulling objects from registry.
 
 setup environment variables through export 
   	
@@ -23,7 +23,7 @@ Step#2:
    		 sudo apt-get install openjdk-8-jdk openjdk-8-jre
     
 
-Step#3: Download an install Jenkins package
+Step#3: Download and install Jenkins package
 
  		wget -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -
   
@@ -72,6 +72,9 @@ Step#10 Log into Jenkins console using the jenkins server address on your browse
 	
 Create users and start setting up your CI/CD pipelines using jenkins
 
+
+Reference:
+https://wiki.jenkins.io/display/JENKINS/Installing+Jenkins+on+Ubuntu
 
 
 
